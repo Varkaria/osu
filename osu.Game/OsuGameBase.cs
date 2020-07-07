@@ -148,6 +148,8 @@ namespace osu.Game
             AddFont(Resources, @"Fonts/Torus-SemiBold");
             AddFont(Resources, @"Fonts/Torus-Bold");
 
+            AddFont(Resources, @"Fonts/Anuphan-Regular");
+
             AddFont(Resources, @"Fonts/Noto-Basic");
             AddFont(Resources, @"Fonts/Noto-Hangul");
             AddFont(Resources, @"Fonts/Noto-CJK-Basic");
