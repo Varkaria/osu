@@ -30,14 +30,7 @@ namespace osu.Game.Tournament.Screens.Editors
 
         [BackgroundDependencyLoader]
         private void load()
-        {
-            ControlPanel.Add(new TourneyButton
-            {
-                RelativeSizeAxes = Axes.X,
-                Text = "Add all countries",
-                Action = addAllCountries
-            });
-        }
+        {}
 
         protected override TeamRow CreateDrawable(TournamentTeam model) => new TeamRow(model, this);
 
